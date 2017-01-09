@@ -70,15 +70,15 @@
                                             </a>\
                                         </div>\
                                         <div class='media-body'>\
-                                            <h4 class='media-heading'>Warszawa</h4>\
+                                            <h4 class='media-heading'>Buenos Aires, San Telmo.</h4>\
                                             <address>\
-                                                ul. Witkowskiego Andrzeja 119 <br>\
+                                                Bernardo de Irigoyen 1518<br>\
                                                 02-983 Warszawa \
                                             </address>\
                                             <ul class='list-unstyled'>\
-                                                <li><i class='fa fa-fw fa-clock-o'></i> Mon-Sat: 8:00am - 7:00pm</li>\
+                                                <li><i class='fa fa-fw fa-clock-o'></i>Lu a Vi: 8:00am - 7:00pm</li>\
                                                 <li><i class='fa fa-fw fa-phone'></i> Tel: (012) 345-6789</li>\
-                                                <li><i class='fa fa-fw fa-envelope'></i> Mail: support@createit.pl</li>\
+                                                <li><i class='fa fa-fw fa-envelope'></i> Mail: deptosantelmo@depto.com.ar</li>\
                                             </ul>\
                                         </div>\
                                     </div>\
