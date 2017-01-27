@@ -7676,8 +7676,8 @@ nav.navbar ul.nav.navbar-nav > li > span:after {
   text-transform: uppercase;
   font-size: 24px;
   font-family: Lato;
-  padding-top: 20px;
-  padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   font-weight: bold;
 }
 @media (max-width: 1500px) {
@@ -7761,7 +7761,7 @@ nav.navbar ul.nav.navbar-nav > li > span:after {
   }
 }
 .ct-listBox.ct-listBox--divided {
-  padding: 6px 50px 5px 50px;
+      padding: 0px 50px 0px 50px;
 }
 .ct-listBox.ct-listBox--divided > li {
   border-bottom: 1px solid #f1f1f1;
@@ -8760,7 +8760,7 @@ footer hr {
   top: 0px;
 }
 .ct-dividedMediaSection.ct-dividedMediaSection--owl .ct-dividedMediaSection-left {
-  height: 365px;
+  height: 423px;
   overflow: hidden;
 }
 @media (max-width: 768px) {
