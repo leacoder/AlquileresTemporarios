@@ -5536,6 +5536,11 @@ button::-moz-focus-inner {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: black;
 }
+.owl-center > .owl-wrapper-outer > .owl-wrapper{
+  width: 75% !important;
+      margin: 0 auto;
+}
+    
 /* Main image in popup */
 img.mfp-img {
   width: auto;
