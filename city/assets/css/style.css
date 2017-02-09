@@ -9107,7 +9107,7 @@ footer hr {
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
   filter: alpha(opacity=0);
   visibility: visible;
-  content: 'see gallery';
+  content: 'Ver galeria';
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
