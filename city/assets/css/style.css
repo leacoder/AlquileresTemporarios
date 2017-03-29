@@ -15,8 +15,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../fonts/fonts/fontawesome-webfont.eot?v=4.5.0');
-  src: url('../fonts/fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  src: url('../fonts/fonts/fontawesome-webfont.eot');
+  src: url('../fonts/fonts/fontawesome-webfont.eot') format('embedded-opentype'), url('../fonts/fonts/fontawesome-webfont.woff2') format('woff2'), url('../fonts/fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1364,6 +1364,11 @@
 .fa-university:before {
   content: "\f19c";
 }
+
+.fa-snowflake-o:before {
+  content: "\f2dc";
+}
+
 .fa-mortar-board:before,
 .fa-graduation-cap:before {
   content: "\f19d";
@@ -1386,6 +1391,10 @@
 .fa-stumbleupon:before {
   content: "\f1a4";
 }
+.fa-bath:before {
+  content: "\f2cd";
+}
+
 .fa-delicious:before {
   content: "\f1a5";
 }
