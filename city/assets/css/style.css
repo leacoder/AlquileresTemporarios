@@ -5085,7 +5085,7 @@ hr.hr-dotted {
   padding-bottom: 55px;
 }
 .ct-u-paddingTop50 {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .ct-u-paddingBottom50 {
   padding-bottom: 50px;
@@ -5118,7 +5118,7 @@ hr.hr-dotted {
   padding-top: 80px;
 }
 .ct-u-paddingBottom80 {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 .ct-u-paddingBoth90 {
   padding-top: 90px;
@@ -7500,9 +7500,9 @@ nav.navbar ul.nav.navbar-nav > li > span:after {
     background-color: #515151;
   }
 }
-.ct-googleMap:before {
+/*.ct-googleMap:before {
   background-color: #1a1a1a;
-}
+}*/
 .ct-googleMap .ct-googleMaps-infoBox .media-heading {
   color: #1a1a1a;
 }
@@ -8295,7 +8295,7 @@ ul.ct-stars > li.empty i {
 footer {
   background-color: #28282e;
   margin-top: -55px;
-  color: #595971;
+  color: ;
 }
 footer hr {
   border: 0;
@@ -8320,6 +8320,7 @@ footer hr {
   padding-left: 25px;
   margin-bottom: 0;
   line-height: 26px;
+  color: #9f9f9f;
 }
 @media (max-width: 768px) {
   footer .ct-logo {

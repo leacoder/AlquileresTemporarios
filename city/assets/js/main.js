@@ -226,31 +226,31 @@ function parseBoolean(str, $defaultValue) {
         $(".ct-select").select2();
 
         $(".ct-selectAdults").select2({
-            placeholder: "No.Adults"
+            placeholder: "Nro. Adultos"
         });
         $(".ct-selectRooms").select2({
-            placeholder: "No.Rooms"
+            placeholder: "Nro. Habitaciones"
         });
         $(".ct-selectChildren").select2({
-            placeholder: "No.Children (3-12)"
+            placeholder: "Nro. chicos (3-12)"
         });
         $(".ct-selectInfants").select2({
-            placeholder: "No.Infants (0-2)"
+            placeholder: "Nro. bebes (0-2)"
         });
         $(".ct-selectCurrency").select2({
-            placeholder: "Currency"
+            placeholder: "Moneda"
         });
         $(".ct-selectBudget").select2({
-            placeholder: "Budget"
+            placeholder: "Precio"
         });
         $(".ct-selectMonth").select2({
-            placeholder: "Month"
+            placeholder: "Mes"
         });
         $(".ct-selectYear").select2({
-            placeholder: "Year"
+            placeholder: "Año"
         });
         $(".ct-selectCountry").select2({
-            placeholder: "Country"
+            placeholder: "Pais"
         });
 
         $('.datepicker').datepicker({
