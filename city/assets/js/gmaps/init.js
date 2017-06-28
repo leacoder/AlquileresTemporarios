@@ -73,12 +73,12 @@
                                             <h4 class='media-heading'>Buenos Aires, San Telmo.</h4>\
                                             <address>\
                                                 Bernardo de Irigoyen 1518<br>\
-                                                02-983 Warszawa \
+                                                San telmo, Buenos Aires. \
                                             </address>\
                                             <ul class='list-unstyled'>\
-                                                <li><i class='fa fa-fw fa-clock-o'></i>Lu a Vi: 8:00am - 7:00pm</li>\
-                                                <li><i class='fa fa-fw fa-phone'></i> Tel: (012) 345-6789</li>\
-                                                <li><i class='fa fa-fw fa-envelope'></i> Mail: deptosantelmo@depto.com.ar</li>\
+                                                <li><i class='fa fa-fw fa-clock-o'></i>Lu a Vi: 10:00 am - 6:00pm</li>\
+                                                <li><i class='fa fa-fw fa-phone'></i>Cel: 11-4991-7023</li>\
+                                                <li><i class='fa fa-fw fa-envelope'></i>Mail: info@alquilerestemporarios.com.ar</li>\
                                             </ul>\
                                         </div>\
                                     </div>\
@@ -177,7 +177,7 @@
                                     <div class='media'>\
                                         <div class='media-left'>\
                                             <a href='#'>\
-                                                <img class='media-object' src='./assets/images/content/country-googlemap-item.jpg' alt='Google Map Result'>\
+                                                <img class='media-object' src='./assets/images/content/country-googlemap-item1.jpg' alt='Google Map Result'>\
                                             </a>\
                                         </div>\
                                         <div class='media-body'>\
@@ -187,9 +187,9 @@
                                                 CP. C1267AAD, CABA \
                                             </address>\
                                             <ul class='list-unstyled'>\
-                                                <li><i class='fa fa-fw fa-clock-o'></i>Lu a Vi: 8:00am - 7:00pm</li>\
-                                                <li><i class='fa fa-fw fa-phone'></i> Tel: (012) 345-6789</li>\
-                                                <li><i class='fa fa-fw fa-envelope'></i> Mail: deptosantelmo@depto.com.ar</li>\
+                                                <li><i class='fa fa-fw fa-clock-o'></i>Lu a Vi: 10:00am - 6:00pm</li>\
+                                                <li><i class='fa fa-fw fa-phone'></i>Cel: 11-4991-7023</li>\
+                                                <li><i class='fa fa-fw fa-envelope'></i> Mail: info@alquilerestemporarios.com.ar</li>\
                                             </ul>\
                                         </div>\
                                     </div>\
