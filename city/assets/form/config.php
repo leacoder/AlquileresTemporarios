@@ -4,7 +4,7 @@
  */
 
 //where we would like to send email
-$recipientEmail = 'recipient@mail.com';
+$recipientEmail = 'lg.design.web@gmail.com';
 $recipientName = 'Recipient Name';
 
 //Address which will be visible in "From" field

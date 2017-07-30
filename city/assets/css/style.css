@@ -7806,6 +7806,30 @@ nav.navbar ul.nav.navbar-nav > li > span:after {
   }
 }
 @media (max-width: 480px) {
+  .titulo span {
+  display: none;
+}
+.titulo:after{
+    content: 'Bienvenido Alquileres Temporarios';
+}
+.tituloMobile {
+    padding-top: 10px;
+}
+.tituloMobileMargin{
+  margin-top: 10px;
+}
+.paddingBoth20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.padbothmobile{
+   padding-top: 10px;
+    padding-bottom: 10px; 
+}
+.paddingtop20 {
+    padding-top: 20px;
+}
+
   .ct-listBox.ct-listBox--divided {
     padding-left: 20px;
     padding-right: 20px;
@@ -8746,7 +8770,7 @@ footer hr {
 }
 @media (max-width: 768px) {
   .ct-category {
-    padding-top: 60px;
+    padding-top: 48px;
   }
 }
 .ct-titleDivider {
