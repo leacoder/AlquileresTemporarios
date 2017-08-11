@@ -77,7 +77,7 @@
                                             </address>\
                                             <ul class='list-unstyled'>\
                                                 <li><i class='fa fa-fw fa-clock-o'></i>Lu a Vi: 10:00 am - 6:00pm</li>\
-                                                <li><i class='fa fa-fw fa-phone'></i>Cel: 11-4991-7023</li>\
+                                                <li><i class='fa fa-fw fa-phone'></i>Cel: 11-5012-9869</li>\
                                                 <li><i class='fa fa-fw fa-envelope'></i>Mail: info@alquilerestemporarios.com.ar</li>\
                                             </ul>\
                                         </div>\
@@ -188,7 +188,7 @@
                                             </address>\
                                             <ul class='list-unstyled'>\
                                                 <li><i class='fa fa-fw fa-clock-o'></i>Lu a Vi: 10:00am - 6:00pm</li>\
-                                                <li><i class='fa fa-fw fa-phone'></i>Cel: 11-4991-7023</li>\
+                                                <li><i class='fa fa-fw fa-phone'></i>Cel: 11-5012-9869</li>\
                                                 <li><i class='fa fa-fw fa-envelope'></i> Mail: info@alquilerestemporarios.com.ar</li>\
                                             </ul>\
                                         </div>\
