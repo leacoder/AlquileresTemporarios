@@ -4,12 +4,13 @@
  */
 
 //where we would like to send email
-$recipientEmail = 'lg.design.web@gmail.com';
+//marialgarcia1974@hotmail.com
+$recipientEmail = 'marialgarcia1974@hotmail.com';
 $recipientName = 'Recipient Name';
 
 //Address which will be visible in "From" field
 $fromEmail = 'donotreply@mail.com';
-$fromName = 'Site Admnistrator';
+$fromName = 'Mail de AlquileresTemporariosCABA';
 
 //Validation error messages
 $requiredMessage = 'Field is required';
