@@ -72,7 +72,7 @@
                                         <div class='media-body'>\
                                             <h4 class='media-heading'>Buenos Aires, San Telmo.</h4>\
                                             <address>\
-                                                Bernardo de Irigoyen 1518<br>\
+                                                Bernardo de Irigoyen 1378<br>\
                                                 San telmo, Buenos Aires. \
                                             </address>\
                                             <ul class='list-unstyled'>\
