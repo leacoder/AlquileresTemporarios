@@ -24,13 +24,11 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <!--<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">-->
     <!--<link rel="stylesheet" type="text/css" href="./assets/css/style.css">-->
-
-
     <!--[if lt IE 9]>
     <script src="./assets/bootstrap/js/html5shiv.min.js"></script>
     <script src="./assets/bootstrap/js/respond.min.js"></script>
     <![endif]-->
-
+    
     <script src="./assets/js/modernizr.custom.js"></script>
 </head>
 <body class="cssAnimate ct-headroom--scrollUpMenu city">
@@ -42,7 +40,7 @@
             </a>
         </li>
         <li><a href="santelmo.html">Depto San Telmo</a></li>
-        <li><a href="galpon.html">Galpon</a></li>
+        <li><a href="Galpon.html">Galpón</a></li>
 		<li>
 			<a href="contacto.html">Contacto</a>
         </li>
@@ -131,7 +129,7 @@
                             <a href="santelmo.html">Departamento San Telmo</a>
                         </li>
                         <li>
-                            <a href="galpon.html">Galpon</a>
+                            <a href="Galpon.html">Galpón</a>
                         </li>
                         <li >
                             <a href="contacto.html">Contacto</a>
@@ -149,7 +147,7 @@
                 <div class="ct-category">
                     <i class="fa fa-home"></i>
                     <i class="fa fa-chevron-right ct-u-size9"></i>
-                    <a href="#"><span>Reserva Ahora</span></a>
+                    <a href="#"><span>Reservá Ahora</span></a>
                 </div>
             </div>
         </div>
@@ -165,20 +163,25 @@
             </div>
             <div class="col-md-8">
                 <div class="row">
-                    <form class="ct-bookForm validateIt" method="post" action="./assets/form/send.php" role="form" data-email-subject="Formulario de Email" data-show-errors="true">
+<form class="ct-bookForm validateIt callus" onsubmit="return false">
+<div class="row">
+    <div class="col-sm-12 center">
+        <div id="result-reserva"></div>
+    </div>
+</div>
                         <div class="input-group col-md-12">
                             <div class="ct-formSlash ct-u-marginBottom10"></div>
                         </div>
                         <div class="input-group col-md-12">
-                            <input type="text" class="form-control" name="field[]" placeholder="Nombre">
+                            <input type="text" class="form-control" name="NombreReserva" placeholder="Nombre">
                         </div>
                         <div class="input-group col-md-12">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="email" class="form-control" name="field[]" placeholder="email">
+                                    <input type="email" class="form-control" name="emailReserva" placeholder="email">
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="field[]" placeholder="telefono">
+                                    <input type="text" class="form-control" name="telefonoReserva" placeholder="telefono">
                                 </div>
                             </div>
                         </div>
@@ -189,12 +192,12 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="ct-datepicker">
-                                        <input type="text" class="form-control datepicker" name="field[]" placeholder="fecha inicio">
+                                        <input type="text" class="form-control datepicker" name="FechaInicioR" placeholder="fecha inicio">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="ct-datepicker">
-                                        <input type="text" class="form-control datepicker" name="field[]" placeholder="fecha fin">
+                                        <input type="text" class="form-control datepicker" name="FechaFinR" placeholder="fecha fin">
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +205,7 @@
                         <div class="input-group col-md-12">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <select class="ct-selectAdults ct-select--full" id="adultos" name="field[]" placeholder="Cantidad Adultos">
+<select class="ct-selectAdults ct-select--full" id="adultos" name="CantidadAdultosR" placeholder="Cantidad Adultos">
                                         <option>&nbsp;</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -218,7 +221,7 @@
                         <div class="input-group col-md-12">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <select class="ct-selectChildren ct-select--full" id="children" name="field[]" placeholder="Cantidad niños">
+                                    <select class="ct-selectChildren ct-select--full" id="children" name="CantidadNiniosR" placeholder="Cantidad niños">
                                         <option>&nbsp;</option>
                                         <option value="0">0</option>
                                         <option value="1">1</option>
@@ -228,7 +231,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-6">
-                                    <select class="ct-selectInfants ct-select--full" id="infants" name="field[]" placeholder="Cantidad bebes">
+                                    <select class="ct-selectInfants ct-select--full" id="infants" name="CantidadBebesR" placeholder="Cantidad bebes">
                                         <option>&nbsp;</option>
                                         <option value="0">0</option>
                                         <option value="1">1</option>
@@ -237,130 +240,11 @@
                                 </div>
                             </div>
                         </div>
-<!--                         <div class="input-group col-md-12">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <select class="ct-selectCurrency ct-select--full" id="currency" name="field[]">
-                                        <option>&nbsp;</option>
-                                        <option value="currency1">USD $</option>
-                                        <option value="currency2">EUR €</option>
-                                        <option value="currency3">GBP £</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6">
-                                    <select class="ct-selectBudget ct-select--full" id="budget" name="field[]">
-                                        <option>&nbsp;</option>
-                                        <option value="budget100">100</option>
-                                        <option value="budget200">200</option>
-                                        <option value="budget300">300</option>
-                                        <option value="budget500">500</option>
-                                        <option value="budget1000">1000</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="input-group col-md-12">
-                            <textarea rows="5" class="form-control" name="field[]" placeholder="Comentarios"></textarea>
+<textarea rows="5" class="form-control" name="ComentariosR" placeholder="Comentarios"></textarea>
                         </div>
-                        <!-- <div class="input-group col-md-12">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" name="field[]" placeholder="name on card">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group col-md-12">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" name="field[]" placeholder="card number">
-                                </div>
-                                <div class="col-md-6">
-                                    <ul class="list-inline list-unstyled ct-u-paddingTop15">
-                                        <li><i class="fa fa-cc-visa fa-2x fa-fw"></i> </li>
-                                        <li><i class="fa fa-cc-mastercard fa-2x fa-fw"></i> </li>
-                                        <li><i class="fa fa-cc-amex fa-2x fa-fw"></i> </li>
-                                        <li><i class="fa fa-cc-discover fa-2x fa-fw"></i> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group col-md-12">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="ct-u-paddingBoth10 ct-u-size14 text-uppercase ct-colorB1B1B1 ct-fw-700">Expiration date</div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <select class="ct-selectMonth ct-select--full" id="month" name="field[]">
-                                                <option>&nbsp;</option>
-                                                <option value="January">January</option>
-                                                <option value="February">February</option>
-                                                <option value="March">March</option>
-                                                <option value="April">April</option>
-                                                <option value="May">May</option>
-                                                <option value="June">June</option>
-                                                <option value="July">July</option>
-                                                <option value="August">August</option>
-                                                <option value="September">September</option>
-                                                <option value="October">October</option>
-                                                <option value="November">November</option>
-                                                <option value="December">December</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <select class="ct-selectYear ct-select--full" id="year" name="field[]">
-                                                <option>&nbsp;</option>
-                                                <option value="year2015">2015</option>
-                                                <option value="year2016">2016</option>
-                                                <option value="year2017">2017</option>
-                                                <option value="year2018">2018</option>
-                                                <option value="year2019">2019</option>
-                                                <option value="year2020">2020</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="ct-u-paddingBoth10 ct-u-size14 text-uppercase ct-colorB1B1B1 ct-fw-700">Security code <i class="fa fa-info-circle fa-fw"  data-toggle="tooltip" data-placement="top" title="Your 3-digit code on reverse card"></i></div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <input type="text" class="form-control" name="field[]">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group col-md-12">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <select class="ct-selectCountry ct-select--full" id="country" name="field[]">
-                                        <option>&nbsp;</option>
-                                        <option value="USA">United States</option>
-                                        <option value="ARG">Argentina</option>
-                                        <option value="BR">Brasil</option>
-                                        <option value="CHI">China</option>
-                                        <option value="ENG">England</option>
-                                        <option value="FR">France</option>
-                                        <option value="GER">Germany</option>
-                                        <option value="SP">Spain</option>
-                                        <option value="POL">Poland</option>
-                                        <option value="POR">Portgual</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group col-md-12">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" name="field[]" placeholder="zip code">
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="input-group col-md-12 ct-u-paddingTop30">
-                            <button type="submit" class="btn btn-primary">Envia tu solicitud de reserva</button>
+                            <button id="submit_btn_reserva" class="btn btn-primary">Enviá tu solicitud de reserva</button>
                         </div>
                     </form>
                 </div>
@@ -371,25 +255,30 @@
         <div class="container">
             <div class="text-center ct-u-paddingTop60 ct-u-paddingBottom100">
                 <h2>O Contactate con nosotros</h2>
-                <small>Para resolver tus preguntas.</small>
+                <small>Para responder tus preguntas.</small>
 <!--                 <p>algo mas pongo aca ?</p> -->
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
-                        <form class="ct-bookForm contactForm validateIt" method="post" action="./assets/form/send.php" role="form" data-email-subject="Formulario de contacto" data-show-errors="true">
+                        <form class="ct-bookForm contactForm validateIt callus top40 " onsubmit="return false ">
+<div class="row">
+    <div class="col-sm-12 center">
+        <div id="result"></div>
+    </div>
+</div>
                             <div class="input-group">
-                                <input type="text" class="form-control" name="field[]" placeholder="Nombre completo" required>
+                                <input type="text" class="form-control" name="namecontact" placeholder="Nombre completo" required>
                             </div>
                             <div class="input-group">
-                                <input type="text" class="form-control" name="field[]" placeholder="Apellido" required>
+                                <input type="email" class="form-control" name="emailcontact" placeholder="email" required>
                             </div>
                             <div class="input-group">
-                                <input type="email" class="form-control" name="field[]" placeholder="email" required>
+                                <input type="text" class="form-control" placeholder="Asunto" name="subjectcontact" id="subject">
                             </div>
                             <div class="input-group">
-                                <textarea rows="6" class="form-control" name="field[]" placeholder="mensaje" required></textarea>
+                                <textarea rows="6" class="form-control" name="messagecontact" placeholder="mensaje" required></textarea>
                             </div>
                             <div class="input-group ct-u-paddingTop20">
-                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            <button id="submit_btn_contact" class="btn btn-primary">Enviar</button>
                             </div>
                         </form>
                         <div class="successMessage alert alert-success ct-u-marginTop20" style="display: none">
@@ -480,7 +369,7 @@
 <script src="./assets/twitter/js/jquery.tweet.js"></script>
 
 
-
+<script src="./assets/js/functions.js"></script>
 <script src="./assets/js/retina.min.js"></script>
 </body>
 </html>
