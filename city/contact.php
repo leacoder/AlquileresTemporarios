@@ -36,12 +36,12 @@ try {
     
     $user_Subject =  $_POST["userSubject"];
     $user_Message     = filter_var($_POST["userMessage"], FILTER_SANITIZE_STRING);
-    $message_Body = "Nombre: ". $user_Name ."\r\n";
-    $message_Body .= "Email: ". $user_Email ."\r\n";
-    $message_Body .= "Asunto: ". $user_Subject ."\r\n";
-    $message_Body .= "Mensaje: ". $user_Message ."\r\n";
+    $message_Body = "<strong>Nombre: </strong>". $user_Name ."<br>";
+    $message_Body .= "<strong>Email: </strong>". $user_Email ."<br>";
+    $message_Body .= "<strong>Asunto: </strong>". $user_Subject ."<br>";
+    $message_Body .= "<strong>Mensaje: </strong>". $user_Message ."<br>";
     
-    $mail->Subject = $user_Subject;
+    $mail->Subject = "Contacto Pagina Web";
     
     $mail->Body    = $message_Body;
     $mail->AltBody = $message_Body;

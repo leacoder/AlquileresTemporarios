@@ -45,7 +45,7 @@ try {
     $message_Body .= "<strong>Fecha inicio: </strong>". $user_FechaInicio ."<br>";
     $message_Body .= "<strong>Fecha Fin: </strong>". $user_FechaFin ."<br>";
     $message_Body .= "<strong>Cantidad de Adultos: </strong>". $user_CantAdultos ."<br>";
-    $message_Body .= "<strong>Cantidad de Niños: </strong>". $user_CantNinios ."<br>";
+    $message_Body .= "<strong>Cantidad de Ni単os: </strong>". $user_CantNinios ."<br>";
     $message_Body .= "<strong>Cantidad de Bebes: </strong>". $user_CantBebes ."<br>";
     $message_Body .= "<strong>Mensaje: </strong>". $user_Comentarios ."<br>";
     
